@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+
+*{
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-image: linear-gradient(180deg, rgba(94, 228, 228, 0.5), rgba(94, 228,228,0.5));
+}
+
+.head{
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    margin: auto;
+}
+
+button{
+    background-color: lightgreen;
+    height: 40px;
+    width: 120px;
+    color:purple;
+    font-weight: bold;
+    border: none;
+    border-radius: 10%;
+    box-shadow: inset 0 0 0 0 lightgreen;
+    transition: 0.3s ease-in ;
+    margin: 0px, 30px, 0px, 30px;
+    
+}
+
+button:hover{
+    box-shadow: inset 120px 0 0 0 green;
+    color: white;
+}
+
+.lion{
+    background: url("../Image/Ipl.jfif") no-repeat center;
+    background-size:cover;
+    min-height: 100vh;
+}
+
+.select{
+    text-align: center;
+    padding: 70px 0px 0px 0px;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    background: rgba(92, 212, 108, 0.4);
+}
+
+.sub{
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+}
+
+.output{
+    background: rgba(0, 0, 150, 0.6);
+    text-align: center;
+    color: rgb(120, 248, 0);
+}
+
+.sub{
+    height: 40px;
+    width: 100px;
+    background-image: linear-gradient(to bottom, grey, white);
+    font-weight: 190;
+    font-size: 1.2rem;
+    border: black 2px solid;
+    transition: ease-in 0.4s ;
+}
+
+.sub:hover{
+    background-image: linear-gradient(to top, grey, white);
+}
